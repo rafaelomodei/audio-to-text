@@ -9,7 +9,6 @@ from typing import List, Any
 
 load_dotenv()
 
-# openai.api_key = os.environ['OPENAI_API_KEY']
 if not os.getenv('OPENAI_API_KEY'):
     print('Missing OPENAI_API_KEY')
     sys.exit(1)

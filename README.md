@@ -67,7 +67,7 @@ $ --label teste
 $ --out-dir output
 
 # Por fim é hora de executar o script
-$  python3 main.py --file audio.mp3 --label audio
+$  python3 main.py --file audio-test.mp3 --label audio-test
 
 # O script deve apresentar os passos que estão sendo realizado no momento
 # Ao finalizar deve existir um novo diretório sem local

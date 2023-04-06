@@ -49,22 +49,34 @@ $ pip3 install python-dotenv
 $ pip3 install argparse
 $ pip3 install pydub
 ```
+**Adicionando a env no projeto**
 
+Temos um arquivo .env.example na raiz do projeto, basca copiar ou renomear para .env.example
+
+Após esse processo, pode acessar o site da openai e obter a sua key. [Click aqui para acessar a pagina da openia](https://platform.openai.com/account/api-keys)
+
+depois é só abrir o arquivo .env e adicionar a sua key, exemplo:
+
+```bash
+    OPENAI_API_KEY = "SUA KEY AQUI"
+```
+
+**Entendendo os comandos**
+
+Diretório e o nome do arquivo a ser carregado, exemplo:
+```--file audio-test.mp3```
+
+Label é um identificador da resposta a ser gerada:
+```--label teste```
+
+Diretório de saída, onde deve ser salvo o texto de saída, por padrão o diretório é output:
+```--out-dir output```
 
 **Executando o script**
 
 ```bash
 # Para visualizar os comandos
 $ python3 main.py -h
-
-# Diretório e o nome do arquivo a ser carregado, exemplo:
-$ --file audio.mp3
-
-# Label é um identificador da resposta a ser gerada:
-$ --label teste
-
-# Deretório de saída, onde deve ser salvo o texto de saída, por padrão o diretório é output:
-$ --out-dir output
 
 # Por fim é hora de executar o script
 $  python3 main.py --file audio-test.mp3 --label audio-test

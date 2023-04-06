@@ -9,11 +9,11 @@ Este projeto é uma aplicação que tem como objetivo transformar áudio em text
 
 ### Features
 
-- [x] Importar aquivos de mídias
+- [x] Importar arquivos de mídias
 - [x] Ler grandes arquivos de mídias
 - [ ] Suportar arquivos de mídias MP4, WAV, OGG e outros
 - [X] Salvar texto em arquivo
-- [X] Tratativa para não subistituir arquivos já gerados
+- [X] Tratativa para não substituir arquivos já gerados
 
 
 ### Executando o script
@@ -29,7 +29,7 @@ $ git clone git@github.com:rafaelomodei/media-to-text.git
 $ cd media-to-text
 ```
 
-O ideial é ter um ambiente virtual para executar o script
+O ideal é ter um ambiente virtual para executar o script
 Neste caso vamos estar usando virtualenv
 [DOC para instalar virtualenv](https://virtualenv.pypa.io/en/latest/installation.html)
 
@@ -42,7 +42,7 @@ $ virtualenv audio-to-text
 # Ativando o ambiente
 $ source audio-to-text/bin/activate
 
-# Instapando as dependências
+# Instalando as dependências
 $ pip3 install openai
 $ pip3 install traceback
 $ pip3 install python-dotenv
@@ -57,7 +57,7 @@ $ pip3 install pydub
 # Para visualizar os comandos
 $ python3 main.py -h
 
-# diretório e o nome do arquivo a ser carregado, exemplo:
+# Diretório e o nome do arquivo a ser carregado, exemplo:
 $ --file audio.mp3
 
 # Label é um identificador da resposta a ser gerada:

@@ -23,7 +23,7 @@ Este projeto é uma aplicação que tem como objetivo transformar áudio em text
 
 ```bash
 # Clone o repositório
-$ git clone <https://github.com/rafaelomodei/media-to-text>
+$ git clone git@github.com:rafaelomodei/media-to-text.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd media-to-text

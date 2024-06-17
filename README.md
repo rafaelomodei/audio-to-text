@@ -43,11 +43,7 @@ $ virtualenv audio-to-text
 $ source audio-to-text/bin/activate
 
 # Instalando as dependências
-$ pip3 install openai
-$ pip3 install traceback
-$ pip3 install python-dotenv
-$ pip3 install argparse
-$ pip3 install pydub
+$ pip install -r requirements.txt
 ```
 **Adicionando a env no projeto**
 
